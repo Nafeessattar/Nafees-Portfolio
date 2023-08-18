@@ -1,0 +1,285 @@
+ @import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:'Preahvihear', sans-serif;
+
+}
+:root{
+    background-color: black;
+    text-decoration-color:white ;
+    -moz-text-decoration-color: blueviolet;
+
+}
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+} 
+body{
+    background:var(background-color);
+    color: var(text-decoration-color);
+
+
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+.homeContent{
+    color: aliceblue;
+}
+
+.homeContent h1,
+.homeContent h2,
+.homeContent h3,
+.homeContent h4,
+.homeContent h5,
+.p
+{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.logo{
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+.navbar>a{
+padding: 1rem;
+font-size: large;
+color: aliceblue;
+
+transition: 0.3s ease-in-out;}
+.navbar>a:hover,
+.navbar>a.active{
+    color: blueviolet;
+}
+#menu-icon{
+    font-size: 3rem;
+    color: wheat;
+    display: none;    
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent{
+    flex: 2;
+    padding: 2rem;
+
+}
+.homeImg{
+    flex: 1;
+
+}
+.homeImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.socialMedia{
+    margin: 2rem 0;
+    border: 1rem;
+    
+}
+.socialMedia>a{
+    border-radius:0.3rem;
+    margin: 0.5rem;
+    height: 5px;
+    font-size: 3rem;
+    color: blueviolet;
+    
+}
+.socialMedia>a>i:hover{
+    font-size: 4rem;
+}
+.downloadButton{
+    background-color: blueviolet;
+    border-radius:2rem;
+    padding:1rem;
+    color: white;
+    transition: 0.2;
+}
+.downloadButton:hover{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.about{
+    color: white;
+    font-size: 1.5rem;
+    flex: 1;
+    margin: 5rem;
+}
+.aboutImg{
+    flex: 0.5;
+    border-radius: 100%;
+}
+.aboutImg img{
+    width: 100%;
+    border-radius: 100%;
+}
+.aboutUs{
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    flex-direction: row-reverse;  
+}
+.about h1{
+    color: blueviolet;
+}
+.about h2{
+padding-bottom: 2rem;
+color: blueviolet;
+}
+.ReadMore{
+    background-color: blueviolet;
+    color: white;
+    font-size:large;
+    border-radius: 3rem;
+    padding: 1rem;    
+}
+.ReadMore:hover{
+    font-weight: bold;
+    text-decoration: underline;
+      
+}
+
+.about p{
+    margin-bottom: 3rem;
+}
+.ourServices h1{
+    color: blueviolet;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.web{
+    flex:1;
+    color: blueviolet;
+    font-size: x-large;
+    background-color:cadetblue;
+    border-radius: 1rem;
+    padding:2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5 ease;
+    border: 5px solid;
+}
+.web:hover{
+    border-color:aquamarine;
+    transform: scale(1.02);
+}
+.web>p{
+    font-size: medium;
+    color: white;
+    padding: 1rem;
+}
+.wordPress{
+    flex:1;
+    color: blueviolet;
+    font-size: x-large;
+    background-color:cadetblue;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5 ease;
+    border: 5px solid;
+
+}
+.wordPress:hover{
+    border-color:aquamarine;
+    transform: scale(1.02);
+}
+.wordPress>p{
+    font-size: medium;
+    color: white;
+    padding: 1rem;
+}
+.itNetworking{
+    padding: 2rem 1rem;
+    flex:1;
+    color: blueviolet;
+    font-size: x-large;
+    background-color:cadetblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5 ease;
+    border: 5px solid;
+
+}
+.itNetworking:hover{
+    transform: scale(1.02);
+    border-color:aquamarine;
+}
+
+.itNetworking>P{
+    font-size: medium;
+    color: white;
+    margin: 1rem;
+}
+.services{
+    display: flex;
+    gap:4rem;
+    text-align: center;
+    
+}
+.headText{
+    margin-top: 3rem;
+    height:14vh;
+
+}
+.D>i{
+    font-size: xx-large;
+
+}
+.D>h1{
+    font-size: x-large;
+    color: white;
+}
+.P>i{
+    font-size: xx-large;
+}
+.P>h1{
+    font-size: x-large;
+    color: white;
+}
+.N>i{
+    font-size: x-large;
+}
+.N>h1{
+    font-size: x-large;
+    color: white;
+}
+
+

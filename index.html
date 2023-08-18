@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafees Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+
+        <a href="#"class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact us">Contact Us</a>
+            
+        </nav>
+    
+    </header>
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h3>Hi! It's Me</h3>
+            <h1 style="margin-bottom: 2rem; font-size: 4rem; color: blueviolet;">Nafees Sattar</h1>
+            <h3 >And I Am <span id="element" style="color: blueviolet;"></span></h3>
+            <p  style="justify-items: center; margin-top:1rem; font-size: 1.5rem; line-height: 2rem;">
+                I am a Software Engr. at Allied Consultant. I have been working there last One month.
+                My specializtion in React JS and i can create any webSite and make it responsive.</p>
+            <div class="socialMedia">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100019444532804">
+                    <i class='bx bxl-facebook-circle'></i></a>
+                <a target="_blank" href="https://twitter.com/Nafeesk65257601?t=a-xBsoLkMHVmwDPct2bsKw&s=09">
+                    <i class=' bx bxl-twitter' ></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/nafees-sattar-37445624b/">
+                    <i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/nafees_khaann/">
+                    <i class='bx bxl-instagram'></i></a>
+            </div>
+            <a style="margin-bottom: 2rem;
+            font-size: 2rem;"
+            href="./cv.pdf"
+            
+            target="_blank"class="downloadButton">Download CV</a>
+        </div>
+        <div class="homeImg">
+            <img src="n.jpg" alt="">
+        </div>
+    </section>
+    <section class="aboutUs" id="about">
+        <div class="about">
+            <h1>About Me</h1>
+            <h2>Front-end Develpor</h2>
+            <p>
+                "Passionate about crafting captivating digital experiences, 
+                 I am a dedicated front-end developer with a keen eye for design and a love for coding. 
+                 With a solid foundation in HTML, CSS, and JavaScript, I specialize in turning intricate
+                 designs into seamless, user-friendly interfaces. 
+                 My goal is to bridge the gap between creativity and functionality,
+                 ensuring that every pixel is in its perfect place while maintaining a strong focus on responsive
+                 and accessible design. Whether it's optimizing website performance or implementing interactive features,
+                 I thrive on the challenges that come with staying at the forefront of web development trends. 
+                 I am committed to continuous learning and collaborating closely with cross-functional teams 
+                 to bring ideas to life. Let's work together to build the digital future."
+            </p>
+        <a href="" class="ReadMore">Read More</a>
+
+        </div>
+        <div class="aboutImg">
+            <img src="./n.jpg" alt="">
+            
+        </div>
+        
+
+    </section>
+    <section class="ourServices"id="services">
+        <h1 class="headText">Our Services</h1>
+        <div class="services">
+            <div class="web">
+                <div class="D">
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Development</h1>
+                </div>
+                <p>Web development is the creation and maintenance of websites and web applications using coding languages and tools.</p>
+                <a href="" class="ReadMore">Read More</a>
+                </div>
+                <div class="wordPress">
+                    <div class="P">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <h1>WordPress</h1>
+                    </div>
+                    <p>WordPress: User-friendly website creation and management platform with templates and plugins.</p>
+                    <a href="" class="ReadMore">Read More</a>
+                    </div>
+                <div class="itNetworking">
+                    <div class="N">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <h1>IT Networking</h1>
+                    </div>
+                    <p>IT networking involves the design, implementation, 
+                    and maintenance of communication systems that connect computers and devices.</p>
+                    <a href="" class="ReadMore">Read More</a>
+                    </div>
+
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-End Develper','Wordpress Developer','IT Network Expert',],
+      typeSpeed: 10,
+      loop:true
+        });
+  </script>
+  <script src="https://kit.fontawesome.com/c6820a4f76.js" crossorigin="anonymous"></script>
+</body>
+</html>
